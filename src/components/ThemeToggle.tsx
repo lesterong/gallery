@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import styles from './ThemeToggle.module.scss'
 
 const ThemeToggle = () => {
   const [theme, setTheme] = useState(localStorage.theme)
@@ -26,7 +27,7 @@ const ThemeToggle = () => {
 
 
   return (
-    <button onClick={handleThemeToggle}>{theme}</button>
+    <button className={styles.btn} onClick={handleThemeToggle}>{theme}</button>
   );
 };
 

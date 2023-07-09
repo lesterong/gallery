@@ -5,7 +5,7 @@ const HomePage = () => {
     <Page>
       <h1>hello, gallery.</h1>
       <p>
-        coming soon.
+        Coming soon.
       </p>
     </Page>
   );

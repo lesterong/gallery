@@ -1,9 +1,0 @@
-.content {
-  height: calc(100vh - 48px); /* fallback */
-  margin: 0 auto;
-  text-align: center;
-  display: grid;
-  place-content: center;
-  height: calc(100dvh - 48px);
-  max-width: 628px;
-}
