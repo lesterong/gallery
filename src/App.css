@@ -1,9 +1,9 @@
 .content {
-  height: 100vh; /* fallback */
+  height: calc(100vh - 48px); /* fallback */
   margin: 0 auto;
   text-align: center;
   display: grid;
   place-content: center;
-  height: 100dvh;
+  height: calc(100dvh - 48px);
   max-width: 628px;
 }
