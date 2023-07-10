@@ -6,6 +6,10 @@
   justify-content: space-between;
   align-items: center;
 
+  > div {
+    display: flex;
+  }
+
   .nav-link {
     text-decoration: none;
     color: inherit;
@@ -13,6 +17,7 @@
   }
 
   > .nav-title {
+    cursor: pointer;
     text-decoration: none;
     color: inherit;
     font-size: 2rem;
