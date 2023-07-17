@@ -20,6 +20,7 @@ body {
   margin: 0;
   color: var(--text-primary);
   background-color: var(--background-primary);
+  transition: background-color 300ms;
 }
 
 a {
